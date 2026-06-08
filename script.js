@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             setSuccessFor(email);
         }
-m
+
         if (mensagem.value.trim() === '') {
             setErrorFor(mensagem);
             isFormValid = false;
